@@ -50,6 +50,15 @@
             border-radius: 10px;
         }
 
+        .header.navbar {
+            justify-content: center;
+        }
+
+        #cyber {
+            font-family: 'Bellota Text', cursive;
+            font-size: 60px;
+        }
+
         /* Handle */
         ::-webkit-scrollbar-thumb {
             box-shadow: inset 0 0 3px grey;
@@ -71,43 +80,38 @@
     </div>
     <!--header start here -->
     <header class="header navbar fixed-top navbar-expand-md">
-        <div class="container">
-            <a class="navbar-brand logo" href="#"><img alt="Cyber Hackathon" src="assets/img/speakers/msp.png"></a> <button
-                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#headernav"
+        <div class="container margin-auto">
+
+            <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#headernav"
                 data-toggle="collapse" style="padding-top: 5px; margin-bottom: 15px;" type="button"><span
                     class="lnr lnr-text-align-right"></span></button>
-            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <div class="collapse navbar-collapse beech flex-sm-row-reverse" id="headernav">
                 <ul class=" nav navbar-nav menu">
                     <li class="nav-item">
                         <a class="nav-link active" href="#about-hack">About</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link " href="components.html">Components</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#prizes">Prizes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#sponsors">Sponsors</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link "
-                            href="#"
-                            target="_blank">Brochure</a>
-                    </li> -->
-                    <!-- <li class="nav-item">
-                        <a class="nav-link " href="timeline1.html">TimeLine</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#faq">FAQs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://docs.google.com/document/d/1RTIc4zNAjks8sMGEVxnBJeS4YDw6jPA1lR3opGpQ1QQ/edit?usp=sharing"
+                            target="_blank">Problem Statements</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
+
     <!--header end here-->
     <!--cover section slider -->
     <section class="home-cover" id="home">
@@ -118,6 +122,11 @@
                         <div class="container">
                             <div class="slider-content-center">
                                 <!-- <img src="assets/img/parallax.png" width="300px" height="300px" style="margin-left: auto;margin-right: auto";> -->
+                                <div> <a class="navbar-brand logo" href="#"><img alt="Cyber Hackathon"
+                                            src="assets/img/logo.png" width="150px" height="150px"></a> <a
+                                        class="navbar-brand logo" href="#"><img alt="Cyber Hackathon"
+                                            src="assets/img/speakers/msp.png" width="200px" height="200px"></a> </div>
+
                                 <h1 style="margin-left: auto; margin-right: auto;">Cyber Hackathon</h1>
                                 <p class="cover-date">1-2 March 2024 - SRM IST RAMAPURAM</p>
                             </div>
@@ -125,60 +134,62 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="cover_item" style="background: url('assets/img/bg/front.jpeg');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-left">
-                            <h2 class="cover-title">
-                                Do you have what it takes to  <br> perceive every Parallel?
-                            </h2>
-                            <strong class="cover-xl-text">PARALLAX</strong>
-                            <p class="cover-date">
-                                21-23 February 2020
-                            </p>
-                
-                         
+            <div class="cover_item" style="background: url('assets/img/bg/front.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-left">
+                                <h4 class="cover-title">
+                                    Cyber Crime Cell, Central Crime Branch of Greater Chennai Police in Association
+                                    with SRM IST Ramapuram presents Cyber Hackathon
+                                </h4>
+                                <strong class="cover-xl-text" id="cyber">Cyber Hackathon</strong>
+                                <p class="cover-date">
+                                    1-2 March 2024
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cover_item" style="background: url('assets/img/bg/front.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-center">
+                                <h2 class="cover-title">
+                                    Get ready to create BIG !!
+                                </h2>
+                                <strong class="cover-xl-text" id="cyber">Cyber Hackathon</strong>
+                                <p class="cover-date">
+                                    1-2 March 2024
+                                </p>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="cover_item" style="background: url('assets/img/bg/front.jpeg');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                                Get ready to create BIG !!
-                            </h2>
-                            <strong class="cover-xl-text">PARALLAX</strong>
-                            <p class="cover-date">
-                                21-23 February 2020 
-                            </p>
-                
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        </div>
-        
+
         <div class="cover_nav">
             <div class="cover_dots">
-              <a href="https://cyber-hackathon-20952.devpost.com/" target="_blank" id="devfolio-apply-now" class="pb-2 pt-2" style="padding-left: 10px; padding-right: 10px;">
-                <svg class="logo" xmlns="http://www.w3.org/2000/svg"
-                  fill="#fff" viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px">
-                  <path
-                    d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
-                  <path
-                    d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" />
-                </svg>Apply with Devpost
-              </a>
+                <a href="https://cyber-hackathon-20952.devpost.com/" target="_blank" id="devfolio-apply-now"
+                    class="pb-2 pt-2" style="padding-left: 10px; padding-right: 10px;">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 115.46 123.46"
+                        style="height:24px;width:24px;margin-right:8px">
+                        <path
+                            d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
+                        <path
+                            d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" />
+                    </svg>Register Here
+                </a>
             </div>
-          </div>
-          
+        </div>
+
         <!-- <div class="cover_nav">
             <div class="cover_dots" style="margin-left: 2em">
                 <button class="active" id="devfolio-apply-now"
@@ -254,174 +265,11 @@
                 </div>
             </div>
         </div>
-        <h1 id="about-hack"></h1>
+
     </section>
     <!--event count down end-->
     <!--about the event -->
-    <section class="pt100 pb100">
-        <div class="container">
-            <div class="section_title">
-                <h3 class="title" data-aos="zoom-in-right">Cyber HACKATHON</h3>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6" data-aos="zoom-in-right">
-                    <p style="text-align: justify; text-justify: inter-word">Welcome to Cyber Hackthon.<br>
-                        The CHAT club from the IT department at SRMIST's Ramapuram campus, in partnership with the
-                        Chennai City Cyber, is orchestrating the "Cyber Hackathon." This event comprises two distinct
-                        stages. Initially, teams will engage in an online submission phase, presenting solution
-                        concepts.<br>
-                        This is a venue for self-expression and creativity through technology.</p>
-                </div>
-                <div class="col-12 col-md-6" data-aos="zoom-in-left">
-                    <p style="text-align: justify; text-justify: inter-word"><br>
-                        The top 20 teams will then advance to the second round. In the subsequent phase, these selected
-                        teams will convene on campus to showcase their operational solutions to a panel of experts, with
-                        a duration of 2 Days.<br>
-                        The only contraint is the time!</p><br>
-                    <br>
-                </div>
-                <h4>This year let the hacking meet the culture...</h4>
-            </div>
-            <!-- <br><br><br> -->
-            <!--event features-->
-            <!-- <div class="section_title" id="tracks">
-                <h3 class="title">
-                    Tracks
-                </h3>
-            </div>
-            <div class="row justify-content-center mt30">
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-earth"></i>
-                        <div class="content">
-                            <h4>Disaster Managment & Recovery</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                Disaster management and recovery involves a set of policies, tools and procedures which
-                                enable the recovery or continuation of vital technology infrastructure and systems
-                                following a natural or human-induced disaster. It focuses on IT or technology based
-                                systems to help support critical business functions.
-                                <br><br>
-                            </p>
 
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-sun"></i>
-                        <div class="content">
-                            <h4>Agriculture Development</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                the need for technology based solutions for agricultural development is increasing
-                                exponentially, providing assistance to the crop producers in the research sphere,
-                                employing latest techniques to provide crop diversity, improve yield and controlling
-                                pests all comes under the umbrella of agricultural development.
-                                <br><br><br><br>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-heart-pulse"></i>
-                        <div class="content">
-                            <h4>Health Care</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                Technology plays an important role in medical care in the 21st century, as it improves
-                                the availability and immediacy of information, communication, patient satisfaction and
-                                productivity in the health sector. Use of innovative ideas and techniques to overcome
-                                limitations in the healthcare domain has a vast scope.
-                                <br><br><br><br><br>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-apartment"></i>
-                        <div class="content">
-                            <h4>Industrial Development</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                In the current world, technology is solely responsible for all the discoveries made.
-                                Even when an individual makes a discovery in any field, he/she has to use technology to
-                                make the discovery viable.Efficiency is one of the most important elements needed for
-                                industrial development. Technology plays a vital role in promoting industrial
-                                efficiency.
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-briefcase"></i>
-                        <div class="content">
-                            <h4>FinTech</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                Fintech trend covers a range of payment options, including virtual currency and
-                                blockchain. The Fintech Times calls these technologies an “Internet of Payments”.Example
-                                applications include innovations in risk management, trading, investing, personal
-                                finance, big data, retail banking, regulatory compliance, mobile payments and enterprise
-                                social.
-
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-eye"></i>
-                        <div class="content">
-                            <h4>Defence and War Tech</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                Defence is one of the most important sectors with regards to the Indian Government, the
-                                need for new technologies in this domain is boundless. Innovation in defence and war
-                                tech refers to technological advancements which reduce the number of deaths on the
-                                battlefield, improve security of classified documents, enhancement in warfare
-                                technologies etc.
-
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-12 col-md-6 col-lg-3">
-                    <div class="icon_box_one">
-                        <i class="lnr lnr-warning"></i>
-                        <div class="content">
-                            <h4>Safety and Security</h4>
-                            <p style="text-align: justify;
-  text-justify: inter-word">
-                                Technology is becoming a game changer in the public safety arena and helped improve the
-                                safety and efficiency of our increasingly interconnected world. We've incorporated
-                                better online illegal activity monitoring to reduce human trafficking and generated big
-                                data that helps companies glean insights and create better products.
-                                <br><br>
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!--event features end-->
-        </div>
-    </section>
     <!--about the event end -->
     <!-- <div class="container" id="sponsors">
         <div class="section_title mb30">
@@ -501,7 +349,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
+        <!-- <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
             <div class="icon_box_one">
                 <div class="content" style="text-align: center!important">
                     <img alt="3rd" height="72" src="./assets/img/icons/4.png">
@@ -509,9 +357,12 @@
                         Alibi Technologies offers a complimentary cyber course to the top five teams.</h4>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- </div> -->
     </div>
+
+
+
     <!--speaker section-->
     <h1 id="sponsors"></h1>
     <section class="pb100">
@@ -540,342 +391,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://github.com/"><img alt="speaker name" src="assets/img/speakers/s4.png"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.jetbrains.com/"><img alt="speaker name"
-                                    src="assets/img/speakers/jetbrains.png"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.creative-tim.com/"><img alt="speaker name"
-                                    src="assets/img/speakers/creative_tim.png"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://zulipchat.com/"><img alt="speaker name"
-                                    src="assets/img/speakers/zulip.jpeg"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.regexsoftware.com/software-services/"><img alt="speaker name"
-                                    src="assets/img/speakers/regex.png"></a>
-                        </div>
-                    </div>
-                </div> -->
+
             </div>
-            <!-- <div class="row justify-content-center no-gutters">
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://devfolio.co/"><img src="assets/img/speakers/s1.png" alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Devfolio</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://github.com/"><img src="assets/img/speakers/s4.png" alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Github</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.radiokart.in/"><img src="assets/img/speakers/radiokart.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">RadioKart</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.facebook.com/VRHUBINDIA/"><img src="assets/img/speakers/vrhub.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">VRHUB</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://cloud.google.com/"><img src="assets/img/speakers/google.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">GoogleCloud</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.elmack.co.in/"><img src="assets/img/speakers/elmack.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Elmack</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://matic.network/"><img src="assets/img/speakers/s2.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Matic</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://codingblocks.com/"><img src="assets/img/speakers/s7.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">CodingBlocks</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://fold.money/"><img src="assets/img/speakers/fold.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">fold</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://twitter.com/PersistenceOne"><img src="assets/img/speakers/persistence.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Persistence</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://cosmosindia.network/"><img src="assets/img/speakers/cosmosindia.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Cosmos</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://www.teeeclan.net/"><img src="assets/img/speakers/teeeclan.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">teeeclan</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.sketch.com/"><img src="assets/img/speakers/s3.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Sketch</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.axure.com/"><img src="assets/img/speakers/s10.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Axure</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://rpabotpro.com/"><img src="assets/img/speakers/bot.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">RpaBotPro</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://www.codepark.in/"><img src="assets/img/speakers/codepark.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">CodePark</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://divjoy.com/"><img src="assets/img/speakers/divjoylogo.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Divjoy</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://about.gitlab.com/"><img src="assets/img/speakers/gitlab.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Gitlab</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://www.taskade.com/"><img src="assets/img/speakers/taskade.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Taskade</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://www.producthunt.com/"><img src="assets/img/speakers/producthunt.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">ProductHunt</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://egghead.io/"><img src="assets/img/speakers/egghead.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">egghead</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px;">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px ">
-                            <a href="https://cloudsploit.com/"><img src="assets/img/speakers/s6.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">CloudSploit</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://balsamiq.com/"><img src="assets/img/speakers/s5.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Balsamiq</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-
-
-                <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6"
-                    style="padding-right: 10px;padding-left: 10px">
-                    <div class="speaker_box">
-                        <div class="speaker_img" style="width: 200px">
-                            <a href="https://www.bugsee.com/"><img src="assets/img/speakers/s8.png"
-                                    alt="speaker name"></a>
-                            <div class="info_box">
-                                <h5 class="name">Bugsee</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
     <!--speaker section end -->
@@ -931,7 +449,7 @@
                                         <button class="accordion-control">Can we participate as a team?</button>
                                         <div class="accordion-panel">
                                             Yes! This hackathon is strictly a team competition. We believe that you’re
-                                            stronger as a team. The team size for Cyber Hackathon is 2-3 members per
+                                            stronger as a team. The team size for Cyber Hackathon is 1-3 members per
                                             team. Most teams aim to have a mix of people with both design and developer
                                             skills.
                                         </div>
@@ -957,12 +475,25 @@
                                             pm at the venue.
                                         </div>
                                     </li>
+                                    <button class="accordion-control">What is the schedule?</button>
+                                    <div class="accordion-panel">
+                                        1) Registration starts from 6th Feb 2024.<br>
+                                        2) An Online Discussion on Cyber Hackathon will be held on 12th Feb 2024.<br>
+                                        3) The Phase 1 initial idea submissions will be accepted till 16th Feb 2024,
+                                        23:59 IST.<br>
+                                        4) The Phase 1 result will be announced on 20th Feb 2024.<br>
+                                        5) The Phase 1 result will be intimated through mail for the selected
+                                        participants.<br>
+                                        6) The Grand Finale will be held on 1st March and 2nd March 2024.<br>
+                                    </div>
+
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-sm">
                                 <ul>
                                     <li>
-                                        <button class="accordion-control">Once I am selected in Top 20 what am I suppose
+                                        <button class="accordion-control">Once I am shortlisted what am I suppose
                                             to
                                             bring?</button>
                                         <div class="accordion-panel">
@@ -1031,6 +562,85 @@
             </div>
         </div>
     </section>
+    <h1 id="about-hack"></h1>
+    <section class="pt30 pb0">
+        <div class="container">
+
+            <div class="section_title">
+
+                <h3 class="title" data-aos="zoom-in-right">Cyber Hackathon</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6" data-aos="zoom-in-right">
+                    <p style="text-align: justify; text-justify: inter-word">Welcome to Cyber Hackthon.<br>
+                        Cyber Crime Cell, Central Crime Branch of Greater Chennai Police in Association with SRM
+                        Institute of Science & Technology Ramapuram presents Cyber Hackathon. This event comprises two
+                        distinct
+                        stages. Initially, teams will engage in an online submission phase, presenting solution
+                        concepts.<br>
+                        This is a venue for self-expression and creativity through technology.</p>
+                </div>
+                <div class="col-12 col-md-6" data-aos="zoom-in-left">
+                    <p style="text-align: justify; text-justify: inter-word"><br>
+                        The shortlisted teams will then advance to the second round. In the subsequent phase, these
+                        selected
+                        teams will convene on campus to showcase their operational solutions to a panel of experts, with
+                        a duration of 2 Days.<br>
+                        The only contraint is the time!</p><br>
+                    <br>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-img" style="background-color: #000000; padding-top: 10px; padding-bottom: 100px;">
+        <div class="container text-white">
+            <div class="mb-4">
+                <h2 class="text-2xl font-bold mb-2">About Alibi:</h2>
+                <p class="mb-2">Alibi is India’s first NABL Accredited Cyber Forensic Private Lab, based in Kerala and
+                    with Operational Centres in Tamil Nadu and Delhi, specializing solely in cyber forensics and cyber
+                    intelligence. Alibi is a certified ISO/IEC 17001:2017 and ISO/IEC 27001:2013 company.</p>
+            </div>
+
+            <div class="mb-4">
+                <h2 class="text-2xl font-bold mb-2">Training Program:</h2>
+                <p class="mb-2">Alibi offers to provide free training in the field of Mobile and Hard disk forensics to
+                    the top 5 teams in the Cyber Hackathon, which costs about Rs.45,000 per person. The training and
+                    certification will be immensely beneficial to the trainees’ careers. The training period is 40
+                    hours, and certification will be provided at the completion of the training.</p>
+            </div>
+
+            <div class="mb-4">
+                <h2 class="text-2xl font-bold mb-2">Benefits:</h2>
+                <p class="mb-2">The trainee will be exposed to actual forensic procedural approach for dealing with any
+                    crime involving digital evidence. The trainee will also have the chance to work on actual cases and
+                    gain hands-on experience with globally renowned licensed Cyber forensic software tools.</p>
+            </div>
+
+            <div class="mb-4">
+                <h2 class="text-2xl font-bold mb-2">Duration and Schedule Details:</h2>
+                <p class="mb-2">The training is available both online and offline formats. Offline training is only
+                    available at the Chennai office of Alibi.</p>
+                <p class="mb-2">Training will take place between the 3rd March and 15th May, 2024.</p>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold mb-2">About Greater Chennai Police:</h2>
+                <p class="mb-2">Chennai city Police has traversed 167 years on the sands of time, leaving many a
+                    distinct footprint behind which dates back to 1629 A.D. The City Police has undergone a sea change
+                    from its initial days. Greater Chennai Police has served as model in urban policing, starting from
+                    turn out and touching ideal standards of response time, detection community service and maintenance
+                    of Law and Order. Greater Chennai Police with a long and illustrious history has established itself
+                    as a truly professional and trend setting Police Force. In line with professionalism, Greater
+                    Chennai Police is conducted this Cyber Hackathon join hands with VIT to find out solution for the
+                    real-time problems that Police Force facing every day.</p>
+            </div>
+        </div>
+    </section>
+
+
+
     <!--brands section end-->
     <section class="bg-img"
         style="background-image: url('assets/img/bg/rajasthan-4.jpg'); padding-top: 200px; padding-bottom: 200px;">
@@ -1101,7 +711,9 @@
                     <div class="footer_menu"
                         style="left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); text-align: center;">
                         Created with ❤ by <a href="https://www.linkedin.com/in/achintya-singh-273663220/"
-                            style="color: #1B65E3" target="_blank">Achintya Singh</a> from <a
+                            style="color: #1B65E3" target="_blank">Achintya Singh</a> and <a
+                            href="https://www.linkedin.com/in/abhishek-tripathi-593041218/" style="color: #1B65E3"
+                            target="_blank">Abhishek Tripathi</a> from <a
                             href="https://srmrmp.edu.in/academics/department-of-information-technology/"
                             style="color: #1B65E3" target="_blank">IT, SRM IST</a>
                     </div>
